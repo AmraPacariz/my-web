@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+  }
+  
+body{
+
+  
+    font-family:  helvetica;
+    font-style: italic;
+    font-weight: 100;
+    letter-spacing: 2px;
+     background-color: rgba(255, 255, 255, 1);
+ color:  rgba(0, 0, 0, 1)
+}
+h1{
+    font-family:  helvetica;
+    font-weight: 100;
+    color:rgba(0, 0,0,1)
+}
+a:link
+{
+    font-family:  helvetica;
+    font-weight: 100;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 1);
+} 
+a:visited
+{
+    font-family:  helvetica;
+    font-weight: 100;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 1);  
+}
+a:hover
+{
+    font-family:  helvetica;
+    font-weight: 100;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 1);    
+}
+
+nav
+{
+background-color: steelblue;
+overflow: hidden;
+
+
+}
+
+nav a  {
+    float: left;
+    display: block;
+    text-align: left;
+    padding: 14px 16px;
+    
+    
+  }
+
+  a ul 
+   { display: none;
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+a:hover ul    {
+     display: block; 
+    }
+a ul li      
+ {
+   border-top: 2px soli steelbluesz;
+    background-color: steelblue;
+    width: 10em;
+    color: black; }
+a ul li :hover 
+ { 
+     background-color:steelblue;
+ } /* granica*/
+ 
+
+
+
