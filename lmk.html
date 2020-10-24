@@ -23,9 +23,84 @@
           </ul>
         </a>
         <a href = "lmk.html">LET ME KNOW</a>
-        <a href = "kontakt.html">KONTAKT</a>
+        <a href = "kontakt.html">CONTACT</a>
       </nav>
-<p>LET ME KNOW</p>
+<h1>LET ME KNOW</h1>
+<p>
+ 
+  PLEASE FILL OUT THIS FORM TO HELP ME IMPROVE MY WEBSITE &amp;
+  THANK YOU FOR VISITING.
+</p>
 
+<!--FORMULAR-->
+<form method = "post" action = "kontakt.html">
+
+  <input type = "hidden" name = "recipient"
+     value = "amrapacariz98@gmail.com">
+  <input type = "hidden" name = "subject" 
+     value = "Feedback Form">
+  <input type = "hidden" name = "redirect" 
+     value = "Main.html"> 
+
+  <p><label>YOUR WORK FIELD <!--WORK FIELD-->
+        <input name = "work.field" type = "text" size = "30">
+     </label></p>
+     <p>
+       <!--THIGS YOU LIKED CHECKBOX-->
+      THINGS YOU LIKED<br>
+
+      <label>SITE DESIGN
+         <input name = "thingsliked" type = "checkbox" 
+            value = "Design"></label>
+      <label>LINKS
+         <input name = "thingsliked" type = "checkbox" 
+            value = "Links"></label>
+      <label>EASE OF USE
+         <input name = "thingsliked" type = "checkbox" 
+            value = "Ease"></label> 
+      <label>IMAGES
+         <input name = "thingsliked" type = "checkbox" 
+            value = "Images"></label>
+      <label>SOURCE CODE
+         <input name = "thingsliked" type = "checkbox" 
+            value = "Code"></label>
+   </p>
+<!--HOW DID YOU FIDE ME RADIO type-->
+<p>
+  HOW DID YOU FIND MY SITE?<br>
+
+  
+  <label>RECOMMENDATION
+     <input name = "howtosite" type = "radio" 
+        value = "recommendation"checked></label> 
+  <label>GIT HUB
+     <input name = "howtosite" type = "radio" 
+        value = "github"></label>
+   <label>INSTAGRAM LINK
+    <input name = "howtosite" type = "radio"
+        value = "instagram"></label>
+  <label>OTHER
+     <input name = "howtosite" type = "radio" 
+        value = "other"></label>
+</p>
+<p><label>OTHER <!--OTHER-->
+  <input name = "other" type = "text" size = "30">
+</label></p>
+<p>
+  <!--Comments-->
+  <label>THING YOU WOULD CHANGE</label><br>
+<textarea  name="Comments" rows="5" cols="50">
+ 
+</textarea></label>
+  </p>
+  <p>
+    <label>RATE MY WEBSITE 1-10
+  <input type="range" id="vol" name="vol" min="1" max="10"></label>
+ </p>
+ <p>
+  <input type = "submit" value = "SUBMIT">
+  <input type = "reset" value = "CLEAR">
+</p>
+</form>
 </body>
 </html>
