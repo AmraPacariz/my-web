@@ -8,6 +8,34 @@
      href = "Proekt.css">
 <title>FAVOURITES</title>
 
+ <style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column1 {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+.column2 {
+  float: left;
+  width: 70%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</style>
+</style>
 </head>
 <body>
     <nav>
@@ -25,10 +53,67 @@
         <a href = "lmk.html">LET ME KNOW</a>
         <a href = "kontakt.html">CONTACT</a>
       </nav>
-<p>FAVOURITES</p>
-<h1 id=movies>FAVOURITE MOVIES</h1>
-<h1 id=music>FAVOURITE MUSIC</h1>
-<h1 id=food>FAVOURITE FOOD</h1>
+
+
+<div class="row"><h1 id=music>FAVOURITE MUSIC</h1></div>
+ <!--AM-->
+<div class="row">
+  <div class="column1">
+    
+    
+      <iframe width="350" height="200"  src="https://www.youtube.com/embed/zr0p6qqtlcw"></iframe>"
+    
+  </div>
+  <div class="column2" >
+    <p><img src="am.png" width="250"height="100" alt="am"> </p><br>
+    <p> BLAH BLAH BLAH ALEX TURNER</p>
+  </div>
+</div>
+<hr>
+<!--maroon 5-->
+<div class="row">
+  <div class="column1">
+    
+    
+    <iframe width="350" height="200" src="https://www.youtube.com/embed/qpgTC9MDx1o"></iframe>
+    
+  </div>
+  <div class="column2" >
+    <p><img src="maroon 5.png" width="350"height="100" alt="maroon5"> </p><br>
+    <p> BLAH BLAH BLAH ALEX TURNER</p>
+  </div>
+</div>
+<hr>
+<!--Ariana-->
+<div class="row">
+  <div class="column1">
+    
+    
+    <iframe width="350" height="200" src="https://www.youtube.com/embed/nJRkgNj7ZMc"></iframe>
+    
+  </div>
+  <div class="column2" >
+    <p><img src="arianag.png" width="350"height="100" alt="ariana"> </p><br>
+    <p> BLAH BLAH BLAH ALEX TURNER</p>
+  </div>
+</div>
+<hr>
+<div class="row"><h1 id=movies>FAVOURITE MOVIES</div>
+  <!--esosm-->
+  
+<img src="esosm.jpg"alt="esosm" >
+
+<!--october sky-->
+
+  
+<img src="os.jpg"alt="os"  >
+
+<!--breakfast on pluto-->
+
+  
+<img src="bronpluto.jpg"alt="bronpluto" >
+
+<div class="row"><h1 id=food>FAVOURITE FOOD</h1></div>
 
 </body>
 </html>
