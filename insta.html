@@ -7,7 +7,61 @@
    <link rel = "stylesheet" type = "text/css" 
      href = "Proekt.css">
 <title>MINI INSTAGRAM</title>
+<style>
+  /*delenje vo 2 koloni*/
+  * {
+  box-sizing: border-box;
+}
 
+/* Create two equal columns that floats next to each other */
+.column1 {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: auto;/* Should be removed. Only for demonstration */
+}
+.column2 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: auto;/* Should be removed. Only for demonstration */
+}
+.column3
+{
+  float: left;
+  width: 35;
+  padding: 10px;
+  height: auto;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+  /*ova e galerijata*/
+  div.gallery {
+   
+  
+  width: auto;
+  height: auto;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 600;
+    height: 400;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align:left;
+  }
+  </style>
 </head>
 <body>
     <nav>
@@ -25,7 +79,107 @@
         <a href = "lmk.html">LET ME KNOW</a>
         <a href = "kontakt.html">CONTACT</a>
       </nav>
-<p>MINI INSTAGRAM</p>
-
+<h1>MINI INSTAGRAM</h1>
+<p>WELCOME TO MY GALLERY</p>
+<!--prva slika-->
+<div class="row">
+  <div class="column1"></div>
+  <div class="column2">
+    <div class="gallery">
+      <a target="_blank" href="#">
+        <img src="insta1.png" alt="insta1"  >
+      </a>
+      <div class="desc">Add a description of the image here</div>
+      <p>
+        <!--Comments-->
+        <label>COMMENTS</label><br>
+      <textarea  name="Commentsinsta" rows="5" cols="50">
+       
+      </textarea></label>
+        </p>
+  </div>
+ </div>
+ <div class="column3"></div>
+</div>
+    <!--vtora slika-->
+    <div class="row">
+      <div class="column1"></div>
+      <div class="column2">
+        <div class="gallery">
+          <a target="_blank" href="#">
+            <img src="insta2.png" alt="insta2"  >
+          </a>
+          <div class="desc">Add a description of the image here</div>
+          <p>
+            <!--Comments-->
+            <label>COMMENTS</label><br>
+          <textarea  name="Commentsinsta" rows="5" cols="50">
+           
+          </textarea></label>
+            </p>
+      </div>
+     </div>
+     <div class="column3"></div>
+    </div>
+    <!--treta slika-->
+    <div class="row">
+      <div class="column1"></div>
+      <div class="column2">
+        <div class="gallery">
+          <a target="_blank" href="#">
+            <img src="insta3.png" alt="insta3"  >
+          </a>
+          <div class="desc">Add a description of the image here</div>
+          <p>
+            <!--Comments-->
+            <label>COMMENTS</label><br>
+          <textarea  name="Commentsinsta" rows="5" cols="50">
+           
+          </textarea></label>
+            </p>
+      </div>
+     </div>
+     <div class="column3"></div>
+    </div>
+    <!--cetvrta slika-->
+    <div class="row">
+      <div class="column1"></div>
+      <div class="column2">
+        <div class="gallery">
+          <a target="_blank" href="#">
+            <img src="insta4.png" alt="insta4"  >
+          </a>
+          <div class="desc">Add a description of the image here</div>
+          <p>
+            <!--Comments-->
+            <label>COMMENTS</label><br>
+          <textarea  name="Commentsinsta" rows="5" cols="50">
+           
+          </textarea></label>
+            </p>
+      </div>
+     </div>
+     <div class="column3"></div>
+    </div>
+    <!--peta slika-->
+    <div class="row">
+      <div class="column1"></div>
+      <div class="column2">
+        <div class="gallery">
+          <a target="_blank" href="#">
+            <img src="insta5.png" alt="insta5"  >
+          </a>
+          <div class="desc">Add a description of the image here</div>
+          <p>
+            <!--Comments-->
+            <label>COMMENTS</label><br>
+          <textarea  name="Commentsinsta" rows="5" cols="50">
+           
+          </textarea></label>
+            </p>
+      </div>
+     </div>
+    <div class="column3"></div>
+    </div>
 </body>
 </html>
