@@ -4,13 +4,13 @@
   
 body{
 
-  
+    margin-top: 100px;
     font-family:  helvetica;
     font-style: italic;
     font-weight: 100;
     letter-spacing: 2px;
      background-color:rgba(255, 255, 255,1);
- color:  rgba(0, 0,0,1)
+ color:  rgba(0, 0, 0, 1)
 }
 h1{
     font-family:  helvetica;
@@ -46,10 +46,11 @@ a:hover
 
 nav
 {
-background-color:steelblue;
+background-color:rgba(219, 177, 198,1);
 overflow: hidden;
-
-
+position: fixed; 
+top: 0 ; 
+width: 100%; 
 }
 
 nav a  {
@@ -57,7 +58,7 @@ nav a  {
     display: block;
     text-align: left;
     padding: 14px 16px;
-    
+
     
   }
 
@@ -72,14 +73,11 @@ a:hover ul    {
 a ul li      
  {
    border-top: 2px soli steelbluesz;
-    background-color: steelblue;
+    background-color:rgba(219, 177, 198,1);
     width: 10em;
     color: black; }
 a ul li :hover 
  { 
-     background-color:steelblue;
+     background-color:rgba(219, 177, 198,1);
  } /* granica*/
  
-
-
-
