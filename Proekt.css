@@ -2,15 +2,29 @@
     box-sizing: border-box;
   }
   
-body{
+p{
 
-    margin-top: 100px;
+   
     font-family:  helvetica;
     font-style: italic;
     font-weight: 100;
     letter-spacing: 2px;
-     background-color:rgba(255, 255, 255,1);
- color:  rgb(0,0,0)
+    color:  rgb(0,0,0);
+}
+p1
+{
+    font-family:  helvetica;
+    font-style: italic;
+    font-weight: 100;
+    letter-spacing: 2px;
+    color:rgb(255, 255, 255) ;
+    font-size: medium;
+}
+
+body{
+    margin-top: 100px;
+    background-color:rgba(255, 255, 255,1);
+    margin-bottom: 50px;
 }
 h1{
     font-family:  helvetica;
@@ -69,16 +83,17 @@ nav a  {
     padding: 0; }
 a:hover ul    {
      display: block; 
+     
     }
 a ul li      
  {
    border-top: 2px soli steelbluesz;
-    background-color:rgba(219, 177, 198,1);
+    background-color:rgba(219, 177, 198,.1);
     width: 10em;
     color: black; }
 a ul li :hover 
  { 
-     background-color:rgba(219, 177, 198,1);
+     background-color:rgba(219, 177, 198,.9);
  } /* granica*/
  textarea
  {
@@ -87,3 +102,15 @@ a ul li :hover
     font-weight: 100;
     letter-spacing: 2px;
  }
+ footer {
+
+     
+    text-align: center;
+    padding: 3px;
+    background-color:rgba(219, 177, 198,.5);
+    color: white;
+    position: fixed ; 
+    right:0;
+bottom: 50px;
+width: 10%; 
+  }
