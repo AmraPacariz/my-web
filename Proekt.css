@@ -134,7 +134,7 @@ background-color:rgb(202, 73, 153);
 {
     background-color:rgba(202, 73, 153,.7);
 }
-.dark-mode a,h1,h2,h3,h4,h5,h6{
+.dark-mode a,h1,h2,h3,h4,h5,h6
+{
     color: rgba(255, 255, 255,1);
-
 }
