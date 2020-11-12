@@ -47,17 +47,12 @@
     <a href = "Home.html">HOME</a>
     <a href = "galerija.html">MINI INSTAGRAM</a>
     <a href = "blog.html">BLOG</a>
-    <a href = "fav.html">FAVOURITES
-      
-     <ul>
-       <li>FOOD </li>
-       <li>MUSIC</li>
-       <li>MOVIES</li>
-     </ul></a>
+    <a href = "fav.html">FAVOURITES</a>
     <a href = "lmk.html">LET ME KNOW</a>
     <a href = "kontakt.html">CONTACT</a>
     <a herf="#"><iframe src="http://free.timeanddate.com/clock/i7itv1rh/n673/tlmk/fn13/tct/pct/fti/pd2/tt0/tw0/ts1/tb2" frameborder="0" width="164" height="18" allowTransparency="true"></iframe>
-  </nav>
+      <a herf="#" onclick="myFunction()">DARKMODE</a> 
+    </nav>
   <div class="gallery">
     <a  href="insta.html">
       <img src="insta1.png" alt="slikainstagram" width="600" height="400">
@@ -151,5 +146,11 @@
     <div class="prazno"></div>
     <div class="desc">Add a description of the image here</div>
   </div>
+  <script>
+    function myFunction() {
+       var element = document.body;
+       element.classList.toggle("dark-mode");
+    }
+    </script>
 </body>
 </html>
