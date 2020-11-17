@@ -30,12 +30,12 @@ body{
 h1{
     font-family:  helvetica;
     font-weight: 100;
-    color:rgba(0, 0,0,1)
+   
 }
 h2{
     font-family:  helvetica;
     font-weight: 100;
-    color:rgba(0, 0,0,1)
+   
 }
 a:link
 {
@@ -43,6 +43,7 @@ a:link
     font-weight: 100;
     text-decoration: none;
     color: rgba(0, 0, 0, 1);
+    
 } 
 a:visited
 {
@@ -115,6 +116,10 @@ a ul li :hover
 bottom: 50px;
 width: 10%; 
   }
+  footer a link
+  {
+      transition: 3s;/*ne raboti da se popravi*/
+  }
  
 
 .dark-mode
@@ -134,7 +139,31 @@ background-color:rgb(202, 73, 153);
 {
     background-color:rgba(202, 73, 153,.7);
 }
-.dark-mode a,h1,h2,h3,h4,h5,h6
+.dark-mode a
 {
     color: rgba(255, 255, 255,1);
 }
+/*isto kako footer kodot samo smeneto left:-91 za da stoi od levata strana i da ne se gleda a na hoover da se otvara left:0*/
+#mySidenav a {
+    text-align: center;
+    padding: 3px;
+    background-color:rgba(219, 177, 198,.5);
+    padding: 15px;
+    width: 100px;
+    transition: 0.3s;
+    position: fixed; 
+    left:-91px;
+   bottom: 50px;
+   
+  }
+  
+  #mySidenav a:hover {
+    left: 0;
+  } 
+
+.dark-mode #mySidenav a
+{
+    background-color: rgba(202, 73, 153,.7);
+    color: rgb(255, 255, 255); 
+}
+ 
