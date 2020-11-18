@@ -110,7 +110,9 @@
       </a>
       
       <div class="desc">Add a description of the image here</div>
-      <div class=" prazno"><button> <img src="p/like.png" alt="like" width="25px"height="25px"> </button><button> <img src="p/komentar.png" alt="like" width="25px"height="25px"> </button></div>
+      <div class=" prazno"><button  onClick="like()" > <img src="p/like.png" alt="like" width="25px"height="25px"> </button><button> <img src="p/komentar.png" alt="like" width="25px"height="25px"> </button>
+        <p>likes: <a id="clicks">0</a></p>
+      </div>
       
         <div class="comment">
           <textarea id="title" type="text "rows="5" cols="80" onkeyup="Allow()" placeholder="write a comment......"></textarea><br>
@@ -261,6 +263,12 @@
           messageBox.innerHTML = "";
           messageBox.innerHTML += " " + titles.join("<br/> ") + "<br/>";
           }
+          </script>
+          <script>
+             function like() {
+              clicks++;
+              document.getElementById("clicks").innerHTML = clicks;
+          };
           </script>
 </body>
 </html>

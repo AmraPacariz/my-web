@@ -82,6 +82,7 @@ nav a  {
    
   }
 
+
   /* ako imam listi 
 a:hover ul    {
      display: block; 
@@ -147,7 +148,7 @@ background-color:rgb(202, 73, 153);
 #mySidenav a {
     text-align: center;
     padding: 3px;
-    background-color:rgba(219, 177, 198,.5);
+    background-color:rgba(219, 177, 198,1);
     padding: 15px;
     width: 100px;
     transition: 0.3s;
@@ -163,7 +164,6 @@ background-color:rgb(202, 73, 153);
 
 .dark-mode #mySidenav a
 {
-    background-color: rgba(202, 73, 153,.7);
+    background-color: rgba(202, 73, 153,1);
     color: rgb(255, 255, 255); 
 }
- 

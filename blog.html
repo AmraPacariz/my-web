@@ -15,48 +15,40 @@
   <a href = "blog.html">BLOG</a>
   <a href = "fav.html">FAVOURITES</a>
   <a href = "lmk.html">LET ME KNOW</a>
-  <a herf="#" onclick="myFunction()">DARKMODE</a> 
+  <a herf="#" onclick="myFunction()" >DARKMODE</a> 
   <a herf="#"><iframe src="http://free.timeanddate.com/clock/i7jkxxjm/n673/tlmk60/fcfff/tct/pct/tt0/th1/tb2" frameborder="0" width="255" height="18" allowTransparency="true"></iframe>
 
   </nav>
 <h2>BLOG</h2>
 <div class="comment">
-  <textarea id="title" type="text "rows="10" cols="160" onkeyup="Allow()" placeholder="BLOG"></textarea><br>
-  <input type="submit" value="Post" onclick="insert()" style="width:50px;" /></form>
+  <textarea id="title" type="text "rows="10" cols="80" onkeyup="Allow()" placeholder="write a comment......"></textarea><br>
+  <input type="submit" value="Post" onclick="insert()" style="width:80px;" /></form>
   </div>
   <div id="display"></div>
   <script type="text/javascript">
-  var titles = [];
-  var time=get.time;
-  var titleInput = document.getElementById("title");
-  var messageBox = document.getElementById("display");
-  function Allow()
-  {
-  if (!user.title.value.match(/[a-zA-Z]$/) && user.title.value !="")
-  {
-  user.title.value="";
-  alert("Please Enter only alphabets");
-  }
-  window.location.reload()
-  }
-  function insert () {
-  titles.push(titleInput.value);
-  clearAndShow();
-  }
-  function clearAndShow ()
-  {
-  titleInput.value = "";
-  messageBox.innerHTML = "";
-  messageBox.innerHTML += " " + titles.join("<br/> ") + "<br/>";
-  }
-  </script>
-<script>
-  function myFunction() {
-     var element = document.body;
-     element.classList.toggle("dark-mode");
-  }
-  </script>
-
+    var titles = [];
+    var titleInput = document.getElementById("title");
+    var messageBox = document.getElementById("display");
+    function Allow()
+    {
+    if (!user.title.value.match(/[a-zA-Z]$/) && user.title.value !="")
+    {
+    user.title.value="";
+    alert("Please Enter only alphabets");
+    }
+    window.location.reload()
+    }
+    function insert () {
+    titles.push(titleInput.value);
+    clearAndShow();
+    }
+    function clearAndShow ()
+    {
+    titleInput.value = "";
+    messageBox.innerHTML =  "";
+    messageBox.innerHTML += " " + titles.join("<br/> ") + "<br/>";
+    }
+    </script>
   </script>
     <div id="mySidenav" class="sidenav">
   
